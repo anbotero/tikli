@@ -1,6 +1,8 @@
+# Libraries
 require 'sinatra'
 require 'slim'
 
+# Application
 get '/' do
 	slim :index
 end
