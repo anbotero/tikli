@@ -1,17 +1,35 @@
 doctype html
-html
+html lang="es"
   head
     meta charset="utf-8"
+    / This is so it loads the latest IE engine, and Chrome Frame
+    meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"
     title Andrés Botero
+    link rel="stylesheet" href="/styles/tikli.css"
 
   body
-    header
-      h1 id="headline"
-        | Andrés Botero
-
     div id="container"
+      header
+        hgroup
+          h1 id="headline"
+            | Tikli
+          h2 id="slogan"
+            | A very nice message ♺
+
       section id="content"
-        p HTML5 test
+        p Send your lovely message
+        form action="" id="messages" method="post"
+          label for="message"
+          textarea id="message" name="message"
+          input id="send" name="send" type="submit" value="Publish"
+        p id="testing"
+
+      footer id="pie"
+        p
+          small (C) 2011. All áéíóú rights given.
+
+      script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.js"
+      script src="/scripts/tikli.js"
 
 /  javascript:
 /    alert("Hello")
