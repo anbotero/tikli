@@ -1,2 +1,2 @@
-require 'main'
-run Sinatra::Application
+require 'tikli'
+run Tikli
