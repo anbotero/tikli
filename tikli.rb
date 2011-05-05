@@ -1,21 +1,17 @@
 require 'sinatra/base'
-require 'slim'
 
 class Tikli < Sinatra::Base
   enable :sessions
-  set  :app_file, __FILE__
+  set    :app_file, __FILE__
 
-  get '/' do
-    slim :index
+  helpers do
+    include Rack::Utils
+    alias_method :h, :escape_html
   end
 
-  get '/login' do
-    slim :login
-  end
-
-  post '/login' do
-    redirect to('/')
-  end
+  require_relative 'helpers/init'
+  require_relative 'models/init'
+  require_relative 'routes/init'
 
   run! if $0 == app_file
 end

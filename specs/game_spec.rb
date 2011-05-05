@@ -1,7 +1,7 @@
 # game_spec.rb
-require '../game'
+require_relative '../tikli'
 
-describe Game do
+describe Tikli do
   describe "#score" do
     it "returns 0 for all gutter game" do
       game = Game.new
