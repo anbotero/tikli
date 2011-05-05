@@ -5,7 +5,6 @@ class Tikli < Sinatra::Base
   set    :app_file, __FILE__
 
   helpers do
-    include Rack::Utils
     alias_method :h, :escape_html
   end
 
