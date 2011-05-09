@@ -1,9 +1,27 @@
-# Tikli
-## Tikli is simple to use and modify microblogging Web application.
+Tikli
+=====
 
-It's been coded in Ruby, with Sinatra as base. Other tools used in its development were Sass (SCSS) and Coffee-Script.
+Tikli is a simple to use microblogging Web application made with
+Sinatra, Slim, Sass (SCSS) and Coffee-Script.
 
-As you can see, Tikli should primarily be used as a programming learning tool.
+Rationale
+---------
 
-Have fun!
+This was inspired by a project I had to make in PHP (using CodeIgniter).
+At the time I was studying Ruby, and I thought that it wouldn't be a bad
+idea to make the same application on different frameworks: CodeIgniter,
+Rails and of course Sinatra.
 
+Specification
+-------------
+
+It's been coded entirely in Ruby.
+
+So?
+---
+
+I can only wish you luck, since Tikli in all of its iterations is mostly
+a proof-of-concept, aimed at showing capabilities of different tools and
+methodologies. I would dare saying it could be used as a learning tool!
+
+In any case, have fun: I know I did!
