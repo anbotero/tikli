@@ -1,8 +1,12 @@
 require 'slim'
+#require 'mongo'
 
 class Tikli < Sinatra::Base
+  #db = Mongo::Connection.new.db('tikli')
+
   get '/' do
     @title = 'Tikli'
+    #@coll = db['users']
     slim :main
   end
 
@@ -14,4 +18,10 @@ class Tikli < Sinatra::Base
   post '/login' do
     redirect '/'
   end
+
+  get '/:userid' do
+    
+  end
+
+  
 end
