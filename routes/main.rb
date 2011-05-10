@@ -4,6 +4,15 @@ require 'slim'
 class Tikli < Sinatra::Base
   #db = Mongo::Connection.new.db('tikli')
 
+  not_found do
+    slim :'404'
+  end
+
+  error do
+    @error = request.env['sinatra_error']
+    slim :'500'
+  end
+
   get '/' do
     @title = 'Tikli'
     #@coll = db['users']
@@ -23,5 +32,4 @@ class Tikli < Sinatra::Base
     
   end
 
-  
 end

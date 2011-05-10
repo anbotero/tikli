@@ -1,10 +1,11 @@
-require 'mongoid'
+#require 'mongoid'
 
-Mongoid.load!('config/mongoid.yml')
+#Mongoid.load!('config/mongoid.yml')
 
-class Cackler
+class User
 #  include Mongo
   attr_accessor :role
+
 
   def self.has_roles(*names)
     names.each do |name|
@@ -14,7 +15,7 @@ class Cackler
     end
   end
 
-  def authenticate
+  def authenticate(username, password)
     
   end
 

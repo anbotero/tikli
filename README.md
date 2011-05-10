@@ -15,7 +15,9 @@ Rails and of course Sinatra.
 Specification
 -------------
 
-It's been coded entirely in Ruby.
+It's been coded entirely in Ruby. Since it's a Web application, somehow
+it also uses HTML, CSS and JavaScript, through Slim, Sass (SCSS) and
+Coffee-Script respectively.
 
 So?
 ---
@@ -24,4 +26,4 @@ I can only wish you luck, since Tikli in all of its iterations is mostly
 a proof-of-concept, aimed at showing capabilities of different tools and
 methodologies. I would dare saying it could be used as a learning tool!
 
-In any case, have fun: I know I did!
+In any case, _have fun_: __I know I did!__
