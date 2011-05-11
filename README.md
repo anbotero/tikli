@@ -18,17 +18,16 @@ knowledge about the different frameworks' working internals.
 Specification
 -------------
 
-It's been coded entirely in Ruby. Since it's a Web application, __somehow__
-it also uses HTML, CSS and JavaScript, through Slim, Sass (SCSS) and
-Coffee-Script respectively.
-
-From these, I would say that Slim and Coffee-Script really stand out. How
-they manage to really simplify the flow, the developing process, is totally
-out of this world. Their syntax makes me feel at home.
-
-Oh, but these would be nothing were not for Sinatra, a great little
+It's been coded entirely in Ruby, and it's powered by Sinatra, a great little
 <acronym title="Domain Specific Language">DSL</acronym> that makes rapid
 prototyping a breeze.
+
+Since it's a Web application, _somehow_ it also uses HTML, CSS and JavaScript,
+through Slim, Sass (SCSS) and Coffee-Script respectively.
+
+From these, I would say that Slim and Coffee-Script really stand out. How
+they manage to really simplify the flow, the developing process, is absolutely
+out of this world. Their syntax makes me feel at home.
 
 So?
 ---
