@@ -1,6 +1,8 @@
-require '../tikli'
+require 'bundler'
+Bundler.setup :default, :test
+
 require 'minitest/autorun'
-require "rack/test"
+require 'minitest/spec'
 
 class MyApp < Sinatra::Base
   helpers do
