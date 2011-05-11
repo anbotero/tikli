@@ -22,13 +22,13 @@ It's been coded entirely in Ruby. Since it's a Web application, __somehow__
 it also uses HTML, CSS and JavaScript, through Slim, Sass (SCSS) and
 Coffee-Script respectively.
 
+From these, I would say that Slim and Coffee-Script really stand out. How
+they manage to really simplify the flow, the developing process, is totally
+out of this world. Their syntax makes me feel at home.
+
 Oh, but these would be nothing were not for Sinatra, a great little
 <acronym title="Domain Specific Language">DSL</acronym> that makes rapid
 prototyping a breeze.
-
-From these, I would say that Slim and Coffee-Script really stand out. How
-they manage to really simplify the flow, the developing process, is totally
-out of this world.
 
 So?
 ---
